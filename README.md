@@ -1,5 +1,5 @@
 # SATySFi-Fonts-Theano
-SATySFi Font Library with [Satyrographos](https://github.com/na4zagin3/satyrographos): [Theano Classical Fonts](https://github.com/akryukov/theano)
+[SATySFi](https://github.com/gfngfn/SATySFi) Font Library with [Satyrographos](https://github.com/na4zagin3/satyrographos): [Theano Classical Fonts](https://github.com/akryukov/theano)
 
 To use this font, please install this package followed by `satyrographos install`.
 
