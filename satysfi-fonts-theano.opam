@@ -1,5 +1,5 @@
 opam-version: "2.0"
-name: "satysfi-grcnum"
+name: "satysfi-fonts-theano"
 version: "2.0+satysfi0.0.3+satyrograhos0.0.1"
 synopsis: "SATySFi Font Package for Alexey Kryukov's Theano Classical Fonts"
 description: """
