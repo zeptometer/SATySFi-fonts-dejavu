@@ -9,9 +9,9 @@ PACKAGE_DIR=$(LIBDIR)/$(PACKAGE_NAME)
 all:
 	:
 
-doc: doc-grcnum.pdf
+doc: doc-fonts-theano-ja.pdf
 
-%.pdf: %.saty grcnum.satyh
+%.pdf: %.saty
 	satysfi $<
 
 install:

@@ -1,0 +1,74 @@
+@require: stdjabook
+@require: code
+@require: itemize
+
+let-inline ctx \set-non-cjk-font name it =
+  let ctx =
+    ctx |> set-font Latin (name, 1., 0.)
+        |> set-font OtherScript (name, 1., 0.)
+  in
+  read-inline ctx it
+in
+
+document (|
+  title = {\SATySFi;-fonts-Theano};
+  author = {\@na4zagin3};
+  show-title = true;
+  show-toc = false;
+|) '<
+  +p {
+    このパッケージはAlexey Kryukov作Theanoシリーズのフォント\code(`https://github.com/akryukov/theano/releases`);、Theano Didot、Theano Modern、Theano Old Style
+	を提供する。
+  }
+  +p {
+    \set-non-cjk-font(`TheanoDidot`){
+      TheanoDidot
+    }
+  }
+  +p {
+    \set-non-cjk-font(`TheanoDidot`){
+      ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+      Μῆνιν ἄειδε, θεά, Πηληϊάδεω Ἀχιλῆος
+      οὐλομένην, ἣ μυρί᾽ Ἀχαιοῖς ἄλγε᾽ ἔθηκε,
+      πολλὰς δ᾽ ἰφθίμους ψυχὰς Ἄϊδι προΐαψεν
+      ἡρώων, αὐτοὺς δὲ ἑλώρια τεῦχε κύνεσσιν
+      οἰωνοῖσί τε πᾶσι· Διὸς δ᾽ ἐτελείετο βουλή·
+      ἐξ οὗ δὴ τὰ πρῶτα διαστήτην ἐρίσαντε
+      Ἀτρεΐδης τε ἄναξ ἀνδρῶν καὶ δῖος Ἀχιλλεύς.
+    }
+  }
+  +p {
+    \set-non-cjk-font(`TheanoModern`){
+      TheanoModern
+    }
+  }
+  +p {
+    \set-non-cjk-font(`TheanoModern`){
+      ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+      Μῆνιν ἄειδε, θεά, Πηληϊάδεω Ἀχιλῆος
+      οὐλομένην, ἣ μυρί᾽ Ἀχαιοῖς ἄλγε᾽ ἔθηκε,
+      πολλὰς δ᾽ ἰφθίμους ψυχὰς Ἄϊδι προΐαψεν
+      ἡρώων, αὐτοὺς δὲ ἑλώρια τεῦχε κύνεσσιν
+      οἰωνοῖσί τε πᾶσι· Διὸς δ᾽ ἐτελείετο βουλή·
+      ἐξ οὗ δὴ τὰ πρῶτα διαστήτην ἐρίσαντε
+      Ἀτρεΐδης τε ἄναξ ἀνδρῶν καὶ δῖος Ἀχιλλεύς.
+    }
+  }
+  +p {
+    \set-non-cjk-font(`TheanoOldStyle`){
+      TheanoOldStyle
+    }
+  }
+  +p {
+    \set-non-cjk-font(`TheanoOldStyle`){
+      ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+      Μῆνιν ἄειδε, θεά, Πηληϊάδεω Ἀχιλῆος
+      οὐλομένην, ἣ μυρί᾽ Ἀχαιοῖς ἄλγε᾽ ἔθηκε,
+      πολλὰς δ᾽ ἰφθίμους ψυχὰς Ἄϊδι προΐαψεν
+      ἡρώων, αὐτοὺς δὲ ἑλώρια τεῦχε κύνεσσιν
+      οἰωνοῖσί τε πᾶσι· Διὸς δ᾽ ἐτελείετο βουλή·
+      ἐξ οὗ δὴ τὰ πρῶτα διαστήτην ἐρίσαντε
+      Ἀτρεΐδης τε ἄναξ ἀνδρῶν καὶ δῖος Ἀχιλλεύς.
+    }
+  }
+>
