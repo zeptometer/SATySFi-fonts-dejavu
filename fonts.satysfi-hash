@@ -1,5 +1,5 @@
 {
-  "TheanoDidot":<"Single":{"src-dist":"TheanoDidot-Regular.otf"}>,
-  "TheanoModern":<"Single":{"src-dist":"TheanoModern-Regular.otf"}>,
-  "TheanoOldStyle":<"Single":{"src-dist":"TheanoOldStyle-Regular.otf"}>
+  "fonts-theano:TheanoDidot":<"Single":{"src-dist":"fonts-theano/TheanoDidot-Regular.otf"}>,
+  "fonts-theano:TheanoModern":<"Single":{"src-dist":"fonts-theano/TheanoModern-Regular.otf"}>,
+  "fonts-theano:TheanoOldStyle":<"Single":{"src-dist":"fonts-theano/TheanoOldStyle-Regular.otf"}>
 }

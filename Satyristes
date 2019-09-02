@@ -1,0 +1,22 @@
+(version 0.0.2)
+(library
+  (name "fonts-theano")
+  (version "2.0")
+  (sources
+    ((hash "fonts.satysfi-hash" "./fonts.satysfi-hash")
+     (font "TheanoDidot-Regular.otf" "./theano/TheanoDidot-Regular.otf")
+     (font "TheanoModern-Regular.otf" "./theano/TheanoModern-Regular.otf")
+     (font "TheanoOldStyle-Regular.otf" "./theano/TheanoOldStyle-Regular.otf")))
+  (compatibility ((renameFont fonts-theano:TheanoDidot TheanoDidot)
+                  (renameFont fonts-theano:TheanoModern TheanoModern)
+                  (renameFont fonts-theano:TheanoOldStyle TheanoOldStyle)))
+  (opam "satysfi-fonts-theano.opam"))
+(libraryDoc
+  (name "fonts-theano-doc")
+  (version "2.0")
+  (build
+    ((satysfi "doc-fonts-theano-ja.saty" "-o" "doc-fonts-theano-ja.pdf")))
+  (sources
+    ((doc "doc-fonts-theano-ja.pdf" "./doc-fonts-theano-ja.pdf")))
+  (opam "satysfi-fonts-theano-doc.opam")
+  (dependencies ((fonts-theano ()))))
