@@ -21,12 +21,12 @@ document (|
 	を提供する。
   }
   +p {
-    \set-non-cjk-font(`TheanoDidot`){
+    \set-non-cjk-font(`fonts-theano:TheanoDidot`){
       TheanoDidot
     }
   }
   +p {
-    \set-non-cjk-font(`TheanoDidot`){
+    \set-non-cjk-font(`fonts-theano:TheanoDidot`){
       ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
       Μῆνιν ἄειδε, θεά, Πηληϊάδεω Ἀχιλῆος
       οὐλομένην, ἣ μυρί᾽ Ἀχαιοῖς ἄλγε᾽ ἔθηκε,
@@ -38,12 +38,12 @@ document (|
     }
   }
   +p {
-    \set-non-cjk-font(`TheanoModern`){
+    \set-non-cjk-font(`fonts-theano:TheanoModern`){
       TheanoModern
     }
   }
   +p {
-    \set-non-cjk-font(`TheanoModern`){
+    \set-non-cjk-font(`fonts-theano:TheanoModern`){
       ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
       Μῆνιν ἄειδε, θεά, Πηληϊάδεω Ἀχιλῆος
       οὐλομένην, ἣ μυρί᾽ Ἀχαιοῖς ἄλγε᾽ ἔθηκε,
@@ -55,12 +55,12 @@ document (|
     }
   }
   +p {
-    \set-non-cjk-font(`TheanoOldStyle`){
+    \set-non-cjk-font(`fonts-theano:TheanoOldStyle`){
       TheanoOldStyle
     }
   }
   +p {
-    \set-non-cjk-font(`TheanoOldStyle`){
+    \set-non-cjk-font(`fonts-theano:TheanoOldStyle`){
       ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
       Μῆνιν ἄειδε, θεά, Πηληϊάδεω Ἀχιλῆος
       οὐλομένην, ἣ μυρί᾽ Ἀχαιοῖς ἄλγε᾽ ἔθηκε,
