@@ -19,8 +19,8 @@ if you get error `bash: satyrographos: command not found`, please read this [ins
 ## Installed Fonts
 This package install the following fonts.
 
-|SATySFi Font Name|Font Filename             |
-|-----------------|--------------------------|
-|TheanoDidot      |TheanoDidot-Regular.otf   |
-|TheanoModern     |TheanoModern-Regular.otf  |
-|TheanoOldStyle   |TheanoOldStyle-Regular.otf|
+|SATySFi Font Name           |Font Filename             |
+|----------------------------|--------------------------|
+|fonts-theano:TheanoDidot    |TheanoDidot-Regular.otf   |
+|fonts-theano:TheanoModern   |TheanoModern-Regular.otf  |
+|fonts-theano:TheanoOldStyle |TheanoOldStyle-Regular.otf|
