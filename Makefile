@@ -1,25 +1,13 @@
-PREFIX=/usr/local
-LIBDIR=$(PREFIX)/share/satysfi
-PACKAGE_NAME=satysfi-fonts-theano
-PACKAGE_DIR=$(LIBDIR)/$(PACKAGE_NAME)
+PACKAGE_NAME=fonts-theano
 
 .PHONY: all
-.PHONY: doc install uninstall
+.PHONY: doc
 
 all:
 	:
 
 doc: doc-fonts-theano-ja.pdf
 
-%.pdf: %.saty
-	satysfi $<
-
-install:
-	[ -d theano ] || ( echo "Font directory doesn't exist. Please install this package with OPAM" ; exit 1)
-	install -d "$(PACKAGE_DIR)/fonts"
-	install -m 644 theano/* $(PACKAGE_DIR)/fonts
-	install -d "$(PACKAGE_DIR)/hash"
-	install -m 644 *.satysfi-hash "$(PACKAGE_DIR)/hash"
-
-uninstall:
-	rm -rf "$(PACKAGE_DIR)"
+doc-fonts-theano-ja.pdf: doc-$(PACKAGE_NAME)-ja.saty satysfi-$(PACKAGE_NAME).opam fonts.satysfi-hash Satyristes
+	opam pin add satysfi-$(PACKAGE_NAME).opam "file://$(PWD)" -y
+	satyrographos opam build -name $(PACKAGE_NAME)-doc
