@@ -9,7 +9,7 @@ If you don't have them, please install them with this [instruction](https://gith
 
 ### Install SATySFi-Fonts-Theano
 ```sh
-$ git pin add "git+https://github.com/na4zagin3/SATySFi-fonts-theano.git"
+$ opam pin add "git+https://github.com/na4zagin3/SATySFi-fonts-theano.git"
 $ opam install satysfi-fonts-theano
 $ satyrographos install
 ```
