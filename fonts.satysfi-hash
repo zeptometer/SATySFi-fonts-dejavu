@@ -1,5 +1,4 @@
 {
-  "fonts-theano:TheanoDidot":<"Single":{"src-dist":"fonts-theano/TheanoDidot-Regular.otf"}>,
-  "fonts-theano:TheanoModern":<"Single":{"src-dist":"fonts-theano/TheanoModern-Regular.otf"}>,
-  "fonts-theano:TheanoOldStyle":<"Single":{"src-dist":"fonts-theano/TheanoOldStyle-Regular.otf"}>
+  "fonts-dejavu:DejaVuSans" : <Single: {"src-dist": "fonts-dejavu/DejaVuSans.ttf"}>,
+  "fonts-dejavu:DejaVuSansMono" : <Single: {"src-dist": "fonts-dejavu/DejaVuSansMono.ttf"}>
 }
