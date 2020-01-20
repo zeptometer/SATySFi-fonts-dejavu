@@ -1,15 +1,15 @@
-opam-version: "2.1"
+opam-version: "2.0"
 name: "satysfi-fonts-dejavu"
 version: "2.37"
 synopsis: "SATySFi Font Package for DejaVu Fonts"
 description: """
-SATySFi Font Package for DejaVu fonts.
+SATySFi font package for DejaVu fonts.
 
 This package installs fonts from https://dejavu-fonts.github.io/.
 """
 maintainer: "MURASE Yuito <yuito.murase@gmail.com>"
-authors: "Murase Yuito <yuito.murase@gmail.com>"
-license: "MIT" # fix this
+authors: "MURASE Yuito <yuito.murase@gmail.com>"
+license: "OFL"
 homepage: "https://github.com/zeptometer/SATySFi-fonts-dejavu"
 bug-reports: "https://github.com/zeptometer/SATySFi-fonts-dejavu/issues"
 dev-repo: "git+https://github.com/zeptometer/SATySFi-fonts-dejavu.git"

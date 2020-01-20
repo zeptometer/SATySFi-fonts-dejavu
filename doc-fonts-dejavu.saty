@@ -1,0 +1,327 @@
+@require: stdjabook
+@require: code
+@require: itemize
+
+let-inline ctx \set-non-cjk-font name it =
+  let ctx =
+    ctx |> set-font Latin (name, 1., 0.)
+        |> set-font OtherScript (name, 1., 0.)
+  in
+  read-inline ctx it
+in
+
+document (|
+  title = {\SATySFi;-fonts-dejavu};
+  author = {Yuito Murase};
+  show-title = true;
+  show-toc = false;
+|) '<
+  +p{
+    \set-non-cjk-font(`fonts-dejavu:DejaVuMathTeXGyre`){
+      DejaVuMathTeXGyre
+    }
+  }
+  +p {
+    \set-non-cjk-font(`fonts-dejavu:DejaVuMathTeXGyre`){
+      !"\#\$\%\&\'\(\)\*\+\,\-\.\/0123456789\:\;\<\=\>\?\@
+      ABCDEFGHIJKLMNOPQRSTUVWXYZ
+      \[\\\]\^\_\`
+      abcdefghijklmnopqrstuvwxyz
+      \{\|\}\~
+    }
+  }
+  +p{
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSans-Bold`){
+      DejaVuSans-Bold
+    }
+  }
+  +p {
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSans-Bold`){
+      !"\#\$\%\&\'\(\)\*\+\,\-\.\/0123456789\:\;\<\=\>\?\@
+      ABCDEFGHIJKLMNOPQRSTUVWXYZ
+      \[\\\]\^\_\`
+      abcdefghijklmnopqrstuvwxyz
+      \{\|\}\~
+    }
+  }
+  +p{
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSans-BoldOblique`){
+      DejaVuSans-BoldOblique
+    }
+  }
+  +p {
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSans-BoldOblique`){
+      !"\#\$\%\&\'\(\)\*\+\,\-\.\/0123456789\:\;\<\=\>\?\@
+      ABCDEFGHIJKLMNOPQRSTUVWXYZ
+      \[\\\]\^\_\`
+      abcdefghijklmnopqrstuvwxyz
+      \{\|\}\~
+    }
+  }
+  +p{
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSans-ExtraLight`){
+      DejaVuSans-ExtraLight
+    }
+  }
+  +p {
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSans-ExtraLight`){
+      !"\#\$\%\&\'\(\)\*\+\,\-\.\/0123456789\:\;\<\=\>\?\@
+      ABCDEFGHIJKLMNOPQRSTUVWXYZ
+      \[\\\]\^\_\`
+      abcdefghijklmnopqrstuvwxyz
+      \{\|\}\~
+    }
+  }
+  +p{
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSans-Oblique`){
+      DejaVuSans-Oblique
+    }
+  }
+  +p {
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSans-Oblique`){
+      !"\#\$\%\&\'\(\)\*\+\,\-\.\/0123456789\:\;\<\=\>\?\@
+      ABCDEFGHIJKLMNOPQRSTUVWXYZ
+      \[\\\]\^\_\`
+      abcdefghijklmnopqrstuvwxyz
+      \{\|\}\~
+    }
+  }
+  +p{
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSans`){
+      DejaVuSans
+    }
+  }
+  +p {
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSans`){
+      !"\#\$\%\&\'\(\)\*\+\,\-\.\/0123456789\:\;\<\=\>\?\@
+      ABCDEFGHIJKLMNOPQRSTUVWXYZ
+      \[\\\]\^\_\`
+      abcdefghijklmnopqrstuvwxyz
+      \{\|\}\~
+    }
+  }
+  +p{
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSansCondensed-Bold`){
+      DejaVuSansCondensed-Bold
+    }
+  }
+  +p {
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSansCondensed-Bold`){
+      !"\#\$\%\&\'\(\)\*\+\,\-\.\/0123456789\:\;\<\=\>\?\@
+      ABCDEFGHIJKLMNOPQRSTUVWXYZ
+      \[\\\]\^\_\`
+      abcdefghijklmnopqrstuvwxyz
+      \{\|\}\~
+    }
+  }
+  +p{
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSansCondensed-BoldOblique`){
+      DejaVuSansCondensed-BoldOblique
+    }
+  }
+  +p {
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSansCondensed-BoldOblique`){
+      !"\#\$\%\&\'\(\)\*\+\,\-\.\/0123456789\:\;\<\=\>\?\@
+      ABCDEFGHIJKLMNOPQRSTUVWXYZ
+      \[\\\]\^\_\`
+      abcdefghijklmnopqrstuvwxyz
+      \{\|\}\~
+    }
+  }
+  +p{
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSansCondensed-Oblique`){
+      DejaVuSansCondensed-Oblique
+    }
+  }
+  +p {
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSansCondensed-Oblique`){
+      !"\#\$\%\&\'\(\)\*\+\,\-\.\/0123456789\:\;\<\=\>\?\@
+      ABCDEFGHIJKLMNOPQRSTUVWXYZ
+      \[\\\]\^\_\`
+      abcdefghijklmnopqrstuvwxyz
+      \{\|\}\~
+    }
+  }
+  +p{
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSansCondensed`){
+      DejaVuSansCondensed
+    }
+  }
+  +p {
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSansCondensed`){
+      !"\#\$\%\&\'\(\)\*\+\,\-\.\/0123456789\:\;\<\=\>\?\@
+      ABCDEFGHIJKLMNOPQRSTUVWXYZ
+      \[\\\]\^\_\`
+      abcdefghijklmnopqrstuvwxyz
+      \{\|\}\~
+    }
+  }
+  +p{
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSansMono-Bold`){
+      DejaVuSansMono-Bold
+    }
+  }
+  +p {
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSansMono-Bold`){
+      !"\#\$\%\&\'\(\)\*\+\,\-\.\/0123456789\:\;\<\=\>\?\@
+      ABCDEFGHIJKLMNOPQRSTUVWXYZ
+      \[\\\]\^\_\`
+      abcdefghijklmnopqrstuvwxyz
+      \{\|\}\~
+    }
+  }
+  +p{
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSansMono-BoldOblique`){
+      DejaVuSansMono-BoldOblique
+    }
+  }
+  +p {
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSansMono-BoldOblique`){
+      !"\#\$\%\&\'\(\)\*\+\,\-\.\/0123456789\:\;\<\=\>\?\@
+      ABCDEFGHIJKLMNOPQRSTUVWXYZ
+      \[\\\]\^\_\`
+      abcdefghijklmnopqrstuvwxyz
+      \{\|\}\~
+    }
+  }
+  +p{
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSansMono-Oblique`){
+      DejaVuSansMono-Oblique
+    }
+  }
+  +p {
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSansMono-Oblique`){
+      !"\#\$\%\&\'\(\)\*\+\,\-\.\/0123456789\:\;\<\=\>\?\@
+      ABCDEFGHIJKLMNOPQRSTUVWXYZ
+      \[\\\]\^\_\`
+      abcdefghijklmnopqrstuvwxyz
+      \{\|\}\~
+    }
+  }
+  +p{
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSansMono`){
+      DejaVuSansMono
+    }
+  }
+  +p {
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSansMono`){
+      !"\#\$\%\&\'\(\)\*\+\,\-\.\/0123456789\:\;\<\=\>\?\@
+      ABCDEFGHIJKLMNOPQRSTUVWXYZ
+      \[\\\]\^\_\`
+      abcdefghijklmnopqrstuvwxyz
+      \{\|\}\~
+    }
+  }
+  +p{
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSerif-Bold`){
+      DejaVuSerif-Bold
+    }
+  }
+  +p {
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSerif-Bold`){
+      !"\#\$\%\&\'\(\)\*\+\,\-\.\/0123456789\:\;\<\=\>\?\@
+      ABCDEFGHIJKLMNOPQRSTUVWXYZ
+      \[\\\]\^\_\`
+      abcdefghijklmnopqrstuvwxyz
+      \{\|\}\~
+    }
+  }
+  +p{
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSerif-BoldItalic`){
+      DejaVuSerif-BoldItalic
+    }
+  }
+  +p {
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSerif-BoldItalic`){
+      !"\#\$\%\&\'\(\)\*\+\,\-\.\/0123456789\:\;\<\=\>\?\@
+      ABCDEFGHIJKLMNOPQRSTUVWXYZ
+      \[\\\]\^\_\`
+      abcdefghijklmnopqrstuvwxyz
+      \{\|\}\~
+    }
+  }
+  +p{
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSerif-Italic`){
+      DejaVuSerif-Italic
+    }
+  }
+  +p {
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSerif-Italic`){
+      !"\#\$\%\&\'\(\)\*\+\,\-\.\/0123456789\:\;\<\=\>\?\@
+      ABCDEFGHIJKLMNOPQRSTUVWXYZ
+      \[\\\]\^\_\`
+      abcdefghijklmnopqrstuvwxyz
+      \{\|\}\~
+    }
+  }
+  +p{
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSerif`){
+      DejaVuSerif
+    }
+  }
+  +p {
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSerif`){
+      !"\#\$\%\&\'\(\)\*\+\,\-\.\/0123456789\:\;\<\=\>\?\@
+      ABCDEFGHIJKLMNOPQRSTUVWXYZ
+      \[\\\]\^\_\`
+      abcdefghijklmnopqrstuvwxyz
+      \{\|\}\~
+    }
+  }
+  +p{
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSerifCondensed-Bold`){
+      DejaVuSerifCondensed-Bold
+    }
+  }
+  +p {
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSerifCondensed-Bold`){
+      !"\#\$\%\&\'\(\)\*\+\,\-\.\/0123456789\:\;\<\=\>\?\@
+      ABCDEFGHIJKLMNOPQRSTUVWXYZ
+      \[\\\]\^\_\`
+      abcdefghijklmnopqrstuvwxyz
+      \{\|\}\~
+    }
+  }
+  +p{
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSerifCondensed-BoldItalic`){
+      DejaVuSerifCondensed-BoldItalic
+    }
+  }
+  +p {
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSerifCondensed-BoldItalic`){
+      !"\#\$\%\&\'\(\)\*\+\,\-\.\/0123456789\:\;\<\=\>\?\@
+      ABCDEFGHIJKLMNOPQRSTUVWXYZ
+      \[\\\]\^\_\`
+      abcdefghijklmnopqrstuvwxyz
+      \{\|\}\~
+    }
+  }
+  +p{
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSerifCondensed-Italic`){
+      DejaVuSerifCondensed-Italic
+    }
+  }
+  +p {
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSerifCondensed-Italic`){
+      !"\#\$\%\&\'\(\)\*\+\,\-\.\/0123456789\:\;\<\=\>\?\@
+      ABCDEFGHIJKLMNOPQRSTUVWXYZ
+      \[\\\]\^\_\`
+      abcdefghijklmnopqrstuvwxyz
+      \{\|\}\~
+    }
+  }
+  +p{
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSerifCondensed`){
+      DejaVuSerifCondensed
+    }
+  }
+  +p {
+    \set-non-cjk-font(`fonts-dejavu:DejaVuSerifCondensed`){
+      !"\#\$\%\&\'\(\)\*\+\,\-\.\/0123456789\:\;\<\=\>\?\@
+      ABCDEFGHIJKLMNOPQRSTUVWXYZ
+      \[\\\]\^\_\`
+      abcdefghijklmnopqrstuvwxyz
+      \{\|\}\~
+    }
+  }
+>
