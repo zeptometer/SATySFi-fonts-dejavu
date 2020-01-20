@@ -9,7 +9,7 @@ If you don't have them, please install them with this [instruction](https://gith
 
 ### Install SATySFi-Fonts-DejaVu
 ```sh
-$ opam pin add "git+https://github.com/na4zagin3/SATySFi-fonts-dejavu.git"
+$ opam pin add "git+https://github.com/zeptometer/SATySFi-fonts-dejavu.git"
 $ opam install satysfi-fonts-dejavu
 $ satyrographos install
 ```
