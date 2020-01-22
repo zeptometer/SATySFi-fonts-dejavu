@@ -1,6 +1,7 @@
 @require: stdjabook
 @require: code
 @require: itemize
+@require: math
 
 let-inline ctx \set-non-cjk-font name it =
   let ctx =
@@ -8,6 +9,13 @@ let-inline ctx \set-non-cjk-font name it =
         |> set-font OtherScript (name, 1., 0.)
   in
   read-inline ctx it
+
+let-inline ctx \set-math-font name it =
+  let ctx =
+    ctx |> set-math-font name
+  in
+  read-inline ctx it
+
 in
 
 document (|
@@ -17,18 +25,12 @@ document (|
   show-toc = false;
 |) '<
   +p{
-    \set-non-cjk-font(`fonts-dejavu:DejaVuMathTeXGyre`){
-      DejaVuMathTeXGyre
-    }
+      DejaVuMathTeXGyre (Math font)
   }
   +p {
-    \set-non-cjk-font(`fonts-dejavu:DejaVuMathTeXGyre`){
-      !"\#\$\%\&\'\(\)\*\+\,\-\.\/0123456789\:\;\<\=\>\?\@
-      ABCDEFGHIJKLMNOPQRSTUVWXYZ
-      \[\\\]\^\_\`
-      abcdefghijklmnopqrstuvwxyz
-      \{\|\}\~
-    }
+      \set-math-font(`fonts-dejavu:DejaVuMathTeXGyre`) {
+        ${\abs{\mathrm{Orb}_G\(x\)} \cdot \abs{\mathrm{Stab}_G\(x\)} = \abs{G}}
+      }
   }
   +p{
     \set-non-cjk-font(`fonts-dejavu:DejaVuSans-Bold`){

@@ -1,5 +1,4 @@
 {
-  "fonts-dejavu:DejaVuMathTeXGyre" : <Single: {"src-dist": "fonts-dejavu/DejaVuMathTeXGyre.ttf"}>,
   "fonts-dejavu:DejaVuSans-Bold" : <Single: {"src-dist": "fonts-dejavu/DejaVuSans-Bold.ttf"}>,
   "fonts-dejavu:DejaVuSans-BoldOblique" : <Single: {"src-dist": "fonts-dejavu/DejaVuSans-BoldOblique.ttf"}>,
   "fonts-dejavu:DejaVuSans-ExtraLight" : <Single: {"src-dist": "fonts-dejavu/DejaVuSans-ExtraLight.ttf"}>,

@@ -4,6 +4,7 @@
   (version "2.37")
   (sources
     ((hash "fonts.satysfi-hash" "fonts.satysfi-hash")
+     (hash "mathfonts.satysfi-hash" "mathfonts.satysfi-hash")
      (font "DejaVuMathTeXGyre.ttf" "dejavu/DejaVuMathTeXGyre.ttf")
      (font "DejaVuSans-Bold.ttf" "dejavu/DejaVuSans-Bold.ttf")
      (font "DejaVuSans-BoldOblique.ttf" "dejavu/DejaVuSans-BoldOblique.ttf")
