@@ -9,7 +9,6 @@ This package installs fonts from https://dejavu-fonts.github.io/.
 """
 maintainer: "MURASE Yuito <yuito.murase@gmail.com>"
 authors: "MURASE Yuito <yuito.murase@gmail.com>"
-license: "OFL"
 homepage: "https://github.com/zeptometer/SATySFi-fonts-dejavu"
 bug-reports: "https://github.com/zeptometer/SATySFi-fonts-dejavu/issues"
 dev-repo: "git+https://github.com/zeptometer/SATySFi-fonts-dejavu.git"
