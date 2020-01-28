@@ -1,6 +1,6 @@
 opam-version: "2.0"
 name: "satysfi-fonts-dejavu"
-version: "2.37"
+version: "2.37+satysfi0.0.4"
 synopsis: "SATySFi Font Package for DejaVu Fonts"
 description: """
 SATySFi font package for DejaVu fonts.
@@ -20,7 +20,7 @@ extra-source "dejavu-fonts-ttf-2.37.zip" {
   ]
 }
 depends: [
-  "satysfi" {>= "0.0.3" & < "0.0.4"}
+  "satysfi" {>= "0.0.4" & < "0.0.5"}
   "satyrographos" {>= "0.0.2" & < "0.0.3"}
 ]
 build: [
